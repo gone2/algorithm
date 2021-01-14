@@ -1,3 +1,4 @@
+// 2021.01.14
 // 1차원 배열 - 최대,최소 (10818)
 
 // StringTokenizer : 사용자가 지정한 구분자를 기준으로 문자열을 나눠주는 클래스
@@ -7,7 +8,7 @@
 import java.io.*;
 import java.util.*;
 
-public class baekjoon_0114 {
+public class baekjoon_10818 {
     
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
