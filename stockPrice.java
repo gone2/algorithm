@@ -12,11 +12,9 @@ public class stockPrice {
         int total = 0;
         for(int p = 0; p < prices.length; p++) {
             for(int s = p+1; s < prices.length; s++) {
-                if(prices[p] <= prices[s]) {
-                    total++;
-                }
-                else if(prices[p] > prices[s]) {
-                    total++;
+                total++;
+                
+                if(prices[p] > prices[s]) {
                     break;
                 }
             }
