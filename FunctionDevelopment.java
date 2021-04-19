@@ -55,10 +55,9 @@ public class FunctionDevelopment {
         }
         push.offer(count);
         
-        int queSize = push.size();
-        answer = new int[queSize];
+        answer = new int[push.size()];
 
-        for(int i = 0; i < queSize; i++) {
+        for(int i = 0; i < answer.length; i++) {
             answer[i] = push.poll();
         } // 끝
 
